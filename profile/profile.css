@@ -1,0 +1,106 @@
+body{
+    background: rgb(255, 251, 0);
+background: linear-gradient(rgb(184, 250, 62), rgb(102, 255, 0));
+
+}
+header {
+border-bottom: 10px solid black ;
+position: relative;
+}
+header h1{
+position: absolute;
+bottom: 10px;
+left: 200px;
+}
+header ul{
+margin: 0px;
+float: right;
+background-color: aqua ;
+}
+
+header ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+header li {
+display: inline;
+padding-left: 10px;
+padding-right: 10px;
+text-transform: uppercase;
+font-weight: 900;
+}
+
+
+header button{
+width: 100px; 
+height: 50px; 
+background-color: gold;
+}
+.img {
+width: 100% ;
+height: auto;
+border-radius: 100%;
+
+}
+@media (min-width: 800px) {
+.img {
+  width: 100%;
+width: 400px ;
+height: auto;
+border-radius: 90%;
+}
+}
+@media (min-width: 1000px) {
+.img {
+width: 100%;
+width: 500px ;
+height: auto;
+border-radius: 100%;
+}
+}
+.middle{
+border: 10px seagreen solid;
+position: relative;
+
+background: rgb(149, 245, 537, 34);
+}
+.middle ul{
+text-align: center;
+border-bottom: 10px solid black ;
+}
+.middle li{
+list-style: none;
+}
+footer{
+border-top: 10px solid black ;
+}
+.work {
+list-style: none;
+
+border-bottom: 10px solid black ;
+}
+.exa1 img {
+width: 600px ;
+height: auto;
+
+}
+@media (min-width: 800px) {
+.work  img {
+width: 800px ;
+height: auto;
+}
+}
+@media (min-width: 1000px) {
+.work img {
+width: 1000px ;
+height: auto;
+}
+}
+.con{
+border-right: 10px solid black  ;
+}
+.con ul{
+list-style: none;
+}
